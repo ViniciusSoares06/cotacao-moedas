@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS cotacoes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    moeda TEXT NOT NULL,
+    valor REAL NOT NULL,
+    data_coleta TEXT NOT NULL
+);
